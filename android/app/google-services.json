@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628420360903",
+    "project_id": "temple-df356",
+    "storage_bucket": "temple-df356.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628420360903:android:d774fdbdebaccfe859dce2",
+        "android_client_info": {
+          "package_name": "com.templeFinance.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmboC8SEKcPokHb_C0WOxuzAZoQbSTON8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
