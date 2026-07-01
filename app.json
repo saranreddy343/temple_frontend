@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Temple Finance",
+    "slug": "temple-finance-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5EBEA5"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.templeFinance.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#5EBEA5"
+      },
+      "package": "com.templeFinance.app",
+      "versionCode": 1,
+      "permissions": ["NOTIFICATIONS", "VIBRATE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "@react-native-firebase/app",
+      [
+        "@react-native-firebase/messaging",
+        {
+          "backgroundNotification": true
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#5EBEA5",
+          "defaultChannel": "temple_finance"
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "https://temple-backend-wbxa.onrender.com/api/v1"
+    }
+  }
+}
